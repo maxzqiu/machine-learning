@@ -1,16 +1,12 @@
-# React + Vite
+# Movie Recommendation Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Looking for a movie that you might like? You've come to the right place! 
 
-Currently, two official plugins are available:
+This Movie Recommendation website utilizes vector machine learning to generate  a list of movie recommendations based on one movie that you input. Typically, the website will recommend movies of similar types with similar genre lists. The website achieves this by using TF-IDF encoding in the vectors. An upgrade to the famous one-hot method, TF-IDF uses both the existance of a certain genre in a movie and the frequency of how that genre is used with other movies to provide a comprehensive look into which genres and to a greater extent, other movies, that will be perfect for you. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Important Website Features:
+- Utilitzes dataset of 32 million movies- Whether you've come for cartoons, horror, or romance movies, you won't be disappointed! We have everything!
+- Customizable number of movie recommendations. Looking for a list of movies to watch for an afternoon, or maybe for a few days instead over a holiday or long weekend?  Don't feel overwhelmed! You may customize how many movies you want the website to recommend by typing the desired number into the input box. 
+- Movie Recommendations includes a list of the genres in that movie! 
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Thanks for taking the time to read this short description of the website. We hope you enjoy both using this website and your future movie quests! 
